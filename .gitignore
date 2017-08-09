@@ -1,0 +1,63 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Gist
+ @AlexandrPristupa
+ Sign out
+ Unwatch 3
+  Star 0
+ Fork 0 waynecto/EDDM Private
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki Insights
+Branch: master Find file Copy pathEDDM/.gitignore
+8c45c25  on Jun 6
+@mbobrovsky mbobrovsky Initial project
+1 contributor
+RawBlameHistory
+43 lines (35 sloc)  516 Bytes
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
